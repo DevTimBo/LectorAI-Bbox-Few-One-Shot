@@ -4,3 +4,6 @@
 *.xml
 *.pth
 *.json
+env
+*/.venv
+Amazon_Training_Center/.venv
