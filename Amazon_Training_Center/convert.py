@@ -123,7 +123,7 @@ def save_torch_model(torch_model, save_path):
     torch.save(torch_model, save_path)
 
 # Paths
-onnx_model_path = "/mnt/c/Users/timBo/Desktop/Projects/LectorAI-Bbox-Transferlearning/models/simplified_model.onnx"
+onnx_model_path = "maskrcnn.onnx"
 modified_onnx_model_path = "/mnt/c/Users/timBo/Desktop/Projects/LectorAI-Bbox-Transferlearning/Amazon_Training_Center/modified_model.onnx"
 image_path = "/mnt/c/Users/timBo/Desktop/Projects/LectorAI-Bbox-Transferlearning/Amazon_Training_Center/tf_images/AL_001.jpg"
 torch_model_save_path = "/mnt/c/Users/timBo/Desktop/Projects/LectorAI-Bbox-Transferlearning/models/pre_mask_rcnn_weights.pt"
