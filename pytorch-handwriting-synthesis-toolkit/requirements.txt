@@ -1,0 +1,8 @@
+Pillow < 10
+numpy < 2
+torch < 2
+matplotlib < 4
+torchvision < 1
+requests < 3
+h5py < 4
+svgwrite < 2
