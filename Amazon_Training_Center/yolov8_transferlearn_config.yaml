@@ -1,0 +1,14 @@
+train: ./tf_images/train
+val: ./tf_images/val
+
+
+nc: 31
+
+names: [
+    "ad_unterschrift", "adress_aend", "ad_erzieher", "ad_neue_ad", "ad_schueler_unterschrift",
+    "ad_erzieher_name", "ad_erzieher_vorname", "ad_erzieher_tel", "ad_erzieher_email",
+    "ad_neue_ad_str_haus_nr", "ad_neue_ad_plz", "ad_neue_ad_stadt", "ad_schueler_datum",
+    "schueler", "schueler_name", "schueler_vorname", "schueler_klasse",
+    "ag", "ag_auswahl", "ag_unterschrift", "ag_schueler_datum",
+    "ag_auswahl_wahl_1", "ag_auswahl_wahl_2", "ag_auswahl_wahl_3", "ag_schueler_unterschrift",
+    "AL", "al_1", "al_2", "al_3", "allergien", "Sonstiges"]

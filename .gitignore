@@ -4,7 +4,11 @@
 *.xml
 *.pth
 *.json
+*.txt
 env
 */.venv
 Amazon_Training_Center/.venv
 models
+runs
+*.onnx
+*.cache
